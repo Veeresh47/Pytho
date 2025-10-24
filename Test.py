@@ -1,11 +1,5 @@
-#Simple interest calculator
-p=float(input("Enter the principal "))
-t=float(input("Enter the time in years "))
-T=float(input("Enter the time in months "))
-if T>0:
-    t=t+(T/12)
+#ternary iperator
 
+num=int(input("Enter a number: "))
 
-r=float(input("Enter the rate of interest "))
-si=(p*t*r)/100
-print("The simple interest is ",si)
+print("Even") if num%2==0 else print("Odd")
